@@ -66,3 +66,66 @@ a{
     margin-top: 5%;
     font-size: 23px;
 }
+@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
+/* Profile Start */
+
+.profile{
+    background-color: rgb(172, 13, 13);
+    text-align: center;
+    color: white;
+}
+.pic h2{
+    color: lime;
+    text-align: center;
+    margin-bottom: -5%;
+    margin-top: 3%;
+    font-family: 'Akronim';
+    font-size: 64px;
+    
+}
+.pic .img{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    float: left;
+    padding: 25px;
+    
+    filter: opacity(100%);
+    border:5px solid green ;
+}
+.pic .img::after{
+    content: "";
+  background: url(img/home-banner.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 20%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.pic .img:hover{
+    filter: opacity(100%);
+    color: white;
+    border:5px solid green ;
+}
+.bio{
+    color: white;
+    float: right;
+    text-align: left ;
+    font-size: 15px;
+    padding-left: 50px;
+    
+}
+/*Profile End*/
+.social img{
+    height: 40px;
+    width: 50px;
+    padding: 1px;
+    border-radius: 80%;
+    margin-bottom: -1.25%;
+}
